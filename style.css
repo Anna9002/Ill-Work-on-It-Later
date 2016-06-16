@@ -5,13 +5,13 @@ body {
 
 #main.header a {
       text-decoration: none;
+      text-transform: upper;
 }
 
 /*unvisited links in nav*/
 .nav ul {
 	padding: 3px;
 	position: relative;
-	text-align: center;
 }
 
 .nav a: link {
