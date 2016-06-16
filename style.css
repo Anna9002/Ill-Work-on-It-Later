@@ -56,6 +56,14 @@ body {
           line-height: 2;
           width:500px;
     }
+    
+    #start a img {
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          bottom: 30px;
+          right: 50%;
+    }
   
 /*css for link on main page, might change this to links on the next page's navi, and use a button for the links on the main page idk*/
   #start a:link{
