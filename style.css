@@ -1,65 +1,33 @@
 body {
-      background-color: #1a94ff;
-      font-family: "Open Sans", "Helvetica", "sans serif";
-}
-
-#main a {
-      text-decoration: none;
+      background-color: #f2f2f2;
       font-family: "Lato", "Helvetica","sans serif";
 }
 
-/*unvisited links in nav*/
-#nav a: link {
+#main.header a {
       text-decoration: none;
-      font-family: "Lato", "Helvetica", "sans serif";
+}
+
+/*unvisited links in nav*/
+.nav ul {
+	padding: 3px;
+	position: relative;
+	text-align: center;
+}
+
+.nav a: link {
+      text-decoration: none;
       color: #f2f2f2;
+}
+
+.nav a: hover {
+      text-decoration: none;
+      text-transform: upper;
+      color: #198cf2;
       -webkit-transition: color 0.3s;
       -moz-transition: color 0.3s;
       -o-transition: color 0.3s;
 }
 
-#nav a::before,
-#nav a::after {
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 2px;
-	background: #fff;
-	content: '';
-	opacity: 0;
-	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
-	transition: opacity 0.3s, transform 0.3s;
-	-webkit-transform: translateY(-10px);
-	-moz-transform: translateY(-10px);
-	transform: translateY(-10px);
-}
-
-#nav a::before {
-	top: 0;
-	-webkit-transform: translateY(-10px);
-	-moz-transform: translateY(-10px);
-	transform: translateY(-10px);
-}
-
-#nav a::after {
-	bottom: 0;
-	-webkit-transform: translateY(10px);
-	-moz-transform: translateY(10px);
-	transform: translateY(10px);
-}
-
-#nav a:hover,
-#nav a:focus {
-	color: #fff;
-}
-
-#nav a:hover::before,
-#nav a:focus::before,
-#nav a:hover::after,
-#nav a:focus::after {
-	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	transform: translateY(0px);
+.nav a:visited {
+	color: #f2f2f2;
 }
