@@ -56,10 +56,8 @@ body {
           font-family: "Open Sans", "Helvetica","sans-serif";
           font-size: 1em;/*with 12pt as the base size*/
           line-height: 1.2;
-          width:27em;
-          padding: 10px;
-          position: relative;
-          top: 55%;
+          width:300px;
+          padding: 10px 10px 10px 10px;
     }
   
 /*css for link on main page, might change this to links on the next page's navi, and use a button for the links on the main page idk*/
