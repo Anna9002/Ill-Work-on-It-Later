@@ -7,12 +7,12 @@
   <!--google font links-->
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   
-<?php
+<!--<?php
   $bg = array("#1a94ff","f26355","ffe664")
 
   $i = rand(0, count($bg)-1); // generate random number size of the array
   $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
-?>
+?>-->
 
   <style>
     body{
@@ -26,6 +26,12 @@
     #main h1 {
       font-size: 300%; /*with 12pt as the base size*/
       font-family:"Lato","Helvetica","sans-serif";
+      text-align: center;
+      padding: 50px;
+      width:100%;
+      height:auto;
+      position:relative;
+      top: 50%;
       -moz-animation: fadein 3s; /* Firefox */
       -webkit-animation: fadein 3s; /* Safari and Chrome */
       -o-animation: fadein 3s; /* Opera */
@@ -92,7 +98,12 @@
 <body>
   <div data-role="page" id="main">
     <div data-role="content">
-    <h1>Good Morning.</h1>
-    <a href="/#">Enter I Guess</a>
+      <h1>Good Morning.</h1>
+      <br><a img src="/down-arrow" href="/p2"></a>
+    </div>
+  </div>
+  <div data-role="page" id="p2"
+    <div data-role="content">
+  </div>
 </body>
 </html>
