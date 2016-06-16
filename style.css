@@ -8,18 +8,23 @@ body {
       text-transform: upper;
 }
 
-/*unvisited links in nav*/
-.nav ul {
+nav {
+	border: 1px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+nav ul {
 	padding: 3px;
 	position: relative;
 }
 
-.nav a: link {
+nav a: link {
       text-decoration: none;
       color: #fff;
 }
 
-.nav a: hover {
+nav a: hover {
       text-decoration: none;
       text-transform: upper;
       color: #198cf2;
@@ -28,6 +33,6 @@ body {
       -o-transition: color 0.3s;
 }
 
-.nav a:visited {
+nav a:visited {
 	color: #f2f2f2;
 }
