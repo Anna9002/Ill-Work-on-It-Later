@@ -18,18 +18,7 @@
     #main {
       background: #1a94ff;
       color: #f7f7f7;
-    }
-    
-    #main h1 {
-      font-size: 300%; /*with 12pt as the base size*/
-      font-family:"Lato","Helvetica","sans-serif";
-      text-align: center;
-      padding: 50px;
-      width:100%;
-      height:auto;
-      position:relative;
-      top: 50%;
-      -moz-animation: fadein 3s; /* Firefox */
+    -moz-animation: fadein 3s; /* Firefox */
       -webkit-animation: fadein 3s; /* Safari and Chrome */
       -o-animation: fadein 3s; /* Opera */
     }
@@ -65,6 +54,17 @@
           opacity: 1;
       }
   }
+    }
+    
+    #main h1 {
+      font-size: 500%; /*with 12pt as the base size*/
+      font-family:"Lato","Helvetica","sans-serif";
+      text-align: center;
+      width:100%;
+      height:auto;
+      position:relative;
+      top: 50%;
+    }   
   
 /*css for link on main page, might change this to links on the next page's navi, and use a button for the links on the main page idk*/
   #main a:link{
@@ -95,7 +95,7 @@
 <body>
   <div data-role="page" id="main">
     <div data-role="content">
-      <h1>Good Morning.</h1>
+      <h1>Good Morning</h1>
       <br><a img src="/down-arrow" href="/p2"></a>
     </div>
   </div>
