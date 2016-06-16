@@ -1,13 +1,9 @@
-body {
-      background-color: #1a94ff;
-    }
-
-    #start {
+/*    #start {
       color: #f7f7f7;
         -moz-animation: fadein 3s; /* Firefox */
-      -webkit-animation: fadein 3s; /* Safari and Chrome */
-      -o-animation: fadein 3s; /* Opera */
-    }
+/*      -webkit-animation: fadein 3s; /* Safari and Chrome */
+/*      -o-animation: fadein 3s; /* Opera */
+/*    }
   @keyframes fadein {
       from {
           opacity:0;
@@ -17,7 +13,7 @@ body {
       }
   }
   @-moz-keyframes fadein { /* Firefox */
-      from {
+ /*     from {
           opacity:0;
       }
       to {
@@ -25,7 +21,7 @@ body {
       }
   }
   @-webkit-keyframes fadein { /* Safari and Chrome */
-      from {
+ /*     from {
           opacity:0;
       }
       to {
@@ -33,7 +29,7 @@ body {
       }
   }
   @-o-keyframes fadein { /* Opera */
-      from {
+ /*     from {
           opacity:0;
       }
       to {
@@ -53,7 +49,7 @@ body {
           text-align: center;
           font-family: "Open Sans", "Helvetica","sans-serif";
           font-size: 16px;/*with 12px as the base size*/
-          line-height: 2;
+  /*        line-height: 2;
           width:500px;
           position: absolute;
           top: 40%;
@@ -69,7 +65,7 @@ body {
     }
   
 /*css for link on main page, might change this to links on the next page's navi, and use a button for the links on the main page idk*/
-  #start a:link{
+/*  #start a:link{
   }
   #start a:visited{
   }
@@ -78,3 +74,70 @@ body {
   #start a:active{
     opacity:0;
   }
+*/
+
+body {
+      background-color: #1a94ff;
+      font-family: "Open Sans", "Helvetica", "sans serif";
+}
+
+#main a {
+      text-decoration: none;
+      font-family: "Lato", "Helvetica","sans serif";
+}
+
+/*unvisited links in nav*/
+#nav a: link {
+      text-decoration: none;
+      font-family: "Lato", "Helvetica", "sans serif";
+      color: #f2f2f2;
+      -webkit-transition: color 0.3s;
+      -moz-transition: color 0.3s;
+      -o-transition: color 0.3s;
+}
+
+#nav a::before,
+#nav a::after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+#nav a::before {
+	top: 0;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+#nav a::after {
+	bottom: 0;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+#nav a:hover,
+#nav a:focus {
+	color: #fff;
+}
+
+#nav a:hover::before,
+#nav a:focus::before,
+#nav a:hover::after,
+#nav a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
