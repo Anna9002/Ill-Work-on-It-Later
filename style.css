@@ -5,28 +5,27 @@ body {
 
 #main.header a {
       text-decoration: none;
-      text-transform: upper;
+      text-transform: uppercase;
 }
 
-nav {
+.nav {
+	text-decoration: none;
 	border: 1px;
 	width: 100%;
 	position: fixed;
 	top: 0px;
 }
-nav ul {
+.nav ul {
 	padding: 3px;
 	position: relative;
+	text-transform: uppercase;
 }
 
-nav a: link {
-      text-decoration: none;
+.nav a: link {
       color: #fff;
 }
 
-nav a: hover {
-      text-decoration: none;
-      text-transform: upper;
+.nav a: hover {
       color: #198cf2;
       -webkit-transition: color 0.3s;
       -moz-transition: color 0.3s;
