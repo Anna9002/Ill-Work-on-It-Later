@@ -50,14 +50,20 @@
   
     
     #start h1 {
-      font-size: 500%; /*with 12pt as the base size*/
+      font-size: 5em; 
       font-family:"Lato","Helvetica","sans-serif";
       text-align: center;
-      width:100%;
-      height:auto;
       position:absolute;
       top: 50%-60px;
-    }   
+    }
+    
+    #start p {
+          text-align: center;
+          font-family: "Open Sans", "Helvetica","sans-serif";
+          font-size: 1em;/*with 12pt as the base size*/
+          line-height: 1.2;
+          width:10em;
+    }
   
 /*css for link on main page, might change this to links on the next page's navi, and use a button for the links on the main page idk*/
   #start a:link{
