@@ -7,14 +7,14 @@ a {
 	text-decoration: none;
 }
 
+/*header: my name and tagline*/
 #header a {
       text-transform: uppercase;
       margin: auto;
 }
 
-
+/*horizontal navigation bar*/
 #nav {
-	text-align: center;
 	text-transform: uppercase;
 	width: 75%;
 	height: 50px;
@@ -28,6 +28,8 @@ a {
 #nav li {
 	display: inline;
 	float: left;
+	margin: auto;
+	padding: 8px;
 }
 
 #nav ul {
