@@ -11,17 +11,14 @@ body {
 
 #nav {
 	text-decoration: none;
+	text-transform: uppercase;
 	width: auto;
-	height: 20px;
+	height: 50px;
 	position: fixed;
 	top: 100px;
 	background-color: #1a94ff;
 	color: #ffffff;
 	margin: 10px 0px 10px 0px;
-}
-#nav ul {
-	position: relative;
-	text-transform: uppercase;
 }
 
 #nav a: link {
