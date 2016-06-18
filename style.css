@@ -11,7 +11,7 @@ body {
 
 #nav {
 	text-decoration: none;
-	width: 100%;
+	width: auto;
 	height: 20px;
 	position: fixed;
 	top: 100px;
