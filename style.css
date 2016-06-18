@@ -3,21 +3,26 @@ body {
       font-family: "Lato", "Helvetica","sans serif";
 }
 
+a {
+	text-decoration: none;
+}
+
 #header a {
-      text-decoration: none;
       text-transform: uppercase;
+      margin: auto;
 }
 
 
 #nav {
-	text-decoration: none;
+	text-align: center;
 	text-transform: uppercase;
-	width: 90%;
+	width: 75%;
 	height: 50px;
 	position: fixed;
 	top: 100px;
 	background-color: #1a94ff;
 	color: #000000;
+	margin: auto;
 }
 
 #nav li {
@@ -32,7 +37,7 @@ body {
 }
 
 #nav a: link {
-      color: #fff;
+      color: #f2f2f2;
 }
 
 #nav a: hover {
